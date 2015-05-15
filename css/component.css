@@ -257,7 +257,7 @@ body{
 	width: 210px;
 	margin-top: 150px;
 	float: left;
-	margin-left: 100px;
+	margin-left: 140px;
 }
 
 nav{
@@ -603,6 +603,26 @@ section{
     width: 80%;
 }
 
+.call-to-action{
+    background-color: white;
+    position: absolute;
+	z-index: 1002;
+	left: 18%; 
+	top: 80%;
+	padding: 1.3% 2%;;
+    font-family: 'asapregular';
+    text-transform: uppercase;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.call-to-action a{
+    text-decoration: none;
+    color: #bb2025;
+    font-weight: bold;
+}
+
 select{
     padding: 3px 10px;
     margin-top: 5px;
@@ -663,6 +683,7 @@ div.menu_inst_1 {
   text-align:center;
   }
 div.menu_inst_1:hover {
+  background-position:right;
   background-position:right;
   color:#8c1318;
   }

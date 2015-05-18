@@ -4,8 +4,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<title>SwB Experience - 1st PUCPR SWB Egress Meeting</title>
-		<meta name="description" content="1º Meet Up Science Without Borders Alumni" />
+		<meta name="description" content="1Âº Meet Up Science Without Borders Alumni" />
 		<meta name="keywords" content="science without borders, alumni, exchange, swb" />
+    <meta charset="iso-8859-1">
 		<meta name="author" content="Science without Borders PUCPR" />
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
@@ -23,7 +24,7 @@
 	</head>
 	<body> 
 
-		<!-- Inserir no header, logo após a abertura do body -->
+		<!-- Inserir no header, logo apÃ³s a abertura do body -->
 		<div id="barra_institucional">
 		  <div class="cont_barra_inst">
 		      <div class="menu_institucional">
@@ -57,8 +58,8 @@
 					<ul id="menu-nav">
 						<li><a href="#large-header">Home</a></li>
                         <li><a href="#sobre-encontro">O encontro</a></li>
-						<li><a href="#programacao">Programação</a></li>
-						<li><a href="#participacao">Inscrição</a></li>
+						<li><a href="#programacao">ProgramaÃ§Ã£o</a></li>
+						<li><a href="#participacao">InscriÃ§Ã£o</a></li>
 						<li><a href="#contato">Contato</a></li>
 					</ul>
 				</nav>
@@ -89,34 +90,34 @@
 			<section class="section-size sobre-enc" id="sobre-encontro" data-sr="enter left, hustle 20px">
 				<h2 class="title-sobre-encontro">O encontro</h2>
                 
-                <p>Este evento traz a oportunidade de encontro de todos os estudantes bolsistas do Ciência sem Fronteiras da PUCPR que já retornaram para PUCPR, criando um espaço para compartilhar experiências, relembrar das coisas boas da viagem.</p>
+                <p>Este evento traz a oportunidade de encontro de todos os estudantes bolsistas do CiÃªncia sem Fronteiras da PUCPR que jÃ¡ retornaram para PUCPR, criando um espaÃ§o para compartilhar experiÃªncias, relembrar das coisas boas da viagem.</p>
  
-                <p>A PUCPR também quer saber dos bolsistas quais foram as melhores experiências que tiveram na Universidade Destino, bem como as experiências ruins.</p>
+                <p>A PUCPR tambÃ©m quer saber dos bolsistas quais foram as melhores experiÃªncias que tiveram na Universidade Destino, bem como as experiÃªncias ruins.</p>
  
-                <p>Você tem alguma sugestão de coisas que viu lá fora e acha que seria ótimo e viável ter na PUCPR? Ou vivenciou algum problema que poderia ter sido evitado?</p>
+                <p>VocÃª tem alguma sugestÃ£o de coisas que viu lÃ¡ fora e acha que seria Ã³timo e viÃ¡vel ter na PUCPR? Ou vivenciou algum problema que poderia ter sido evitado?</p>
  
-                <p>Venha para o nosso evento e compartilhe suas experiências! Sua opinião será extremamente importante, pois suas sugestões irão diretamente para a Reitoria da PUCPR, para o CNPq/CAPES e para o parceiro do país de destino. Juntos podemos fazer a diferença!</p>
+                <p>Venha para o nosso evento e compartilhe suas experiÃªncias! Sua opiniÃ£o serÃ¡ extremamente importante, pois suas sugestÃµes irÃ£o diretamente para a Reitoria da PUCPR, para o CNPq/CAPES e para o parceiro do paÃ­s de destino. Juntos podemos fazer a diferenÃ§a!</p>
  
-<p>E além disso, teremos a oportunidade de confraternização no momento do Welcome Coffee!</p>
+<p>E alÃ©m disso, teremos a oportunidade de confraternizaÃ§Ã£o no momento do Welcome Coffee!</p>
  
-<p>Esperamos encontrá-los aqui!</p>
+<p>Esperamos encontrÃ¡-los aqui!</p>
                 <br />
-                <h5>Declarações e Premiações</h5>
+                <h5>DeclaraÃ§Ãµes e PremiaÃ§Ãµes</h5>
                  
-                <p>Após o evento você poderá imprimir uma declaração de sua participação no SWB Experience.</p>
-                <p>Esta declaração poderá ser aproveitada nas horas complementares de seu curso, bem como no seu curricullum lattes, pois demonstrará que você está engajado no processo de construir um Brasil melhor, retribuindo o investimento que recebeu do Governo Federal.</p>
+                <p>ApÃ³s o evento vocÃª poderÃ¡ imprimir uma declaraÃ§Ã£o de sua participaÃ§Ã£o no SWB Experience.</p>
+                <p>Esta declaraÃ§Ã£o poderÃ¡ ser aproveitada nas horas complementares de seu curso, bem como no seu curricullum lattes, pois demonstrarÃ¡ que vocÃª estÃ¡ engajado no processo de construir um Brasil melhor, retribuindo o investimento que recebeu do Governo Federal.</p>
 
-                <p>As melhores ideias serão premiadas com uma Menção Honrosa:<br />
+                <p>As melhores ideias serÃ£o premiadas com uma MenÃ§Ã£o Honrosa:<br />
                 1) Melhor Ideia para a PUCPR;<br />
-                2) Melhor Ideia para a Gestão do Programa para CAPES/CNPq;<br />
-                3) Melhor Ideia para o parceiro do país de destino.</p>
+                2) Melhor Ideia para a GestÃ£o do Programa para CAPES/CNPq;<br />
+                3) Melhor Ideia para o parceiro do paÃ­s de destino.</p>
 
 				
 
 			</section>
 
 			<section class="section-size schedule" id="programacao" data-sr="enter left, hustle 20px">
-				<h2 class="title-sobre-encontro">Programação</h2>
+				<h2 class="title-sobre-encontro">ProgramaÃ§Ã£o</h2>
 
 				<table>
 				  <tr>
@@ -125,7 +126,7 @@
 				  </tr>
 				  <tr>
 				    <td><strong>18h45</strong></td>
-				    <td><img src="img/page_with_curl.png" class="icon" /> Apresentação das Autoridades.</td>
+				    <td><img src="img/page_with_curl.png" class="icon" /> ApresentaÃ§Ã£o das Autoridades.</td>
 				  </tr>
 				  <tr>
 				  	<td><strong>19h30</strong></td>
@@ -134,22 +135,22 @@
                     
                     <tr>
 				  	<td><strong>20h15</strong></td>
-				  	<td><img src="img/pencil.png" class="icon" /> Espaço Ideias e Sugestões.</td>
+				  	<td><img src="img/pencil.png" class="icon" /> EspaÃ§o Ideias e SugestÃµes.</td>
 				  </tr>
                     
                     <tr>
 				  	<td><strong>21h15</strong></td>
-				  	<td><img src="img/thumbsup.png" class="icon" /> Novas oportunidades para estudantes Ciência sem Fronteiras.</td>
+				  	<td><img src="img/thumbsup.png" class="icon" /> Novas oportunidades para estudantes CiÃªncia sem Fronteiras.</td>
 				  </tr>
 				</table>
 
 			</section>
 
 			<section class="section-size2 sobre-enc form-inc" id="participacao" data-sr="enter left, hustle 20px">
-				<h2 class="title-sobre-encontro">Inscrição</h2>
+				<h2 class="title-sobre-encontro">InscriÃ§Ã£o</h2>
 
 
-        <h6>Inscrições a partir do dia 20 de Maio (quarta-feira).</h6>       
+        <h6>InscriÃ§Ãµes a partir do dia 20 de Maio (quarta-feira).</h6>       
 				<!-- <p>Preencha seu CPF para iniciar seu cadastro:</p>
 				<br />
                 <label for="cpf">CPF</label><br />
@@ -178,15 +179,15 @@
                         <label for="cpf"><b>Universidade de destino</b></label><br />
                         <input class="input-inscricao preencher"></input><br />
                         <br />
-                        <label for="cpf"><b>País de Destino</b></label><br />
+                        <label for="cpf"><b>PaÃ­s de Destino</b></label><br />
                         <input class="input-inscricao preencher"></input><br />
                         <br />
-                        <label for="cpf"><b>Início e Término da vigência da bolsa</b></label><br />
-                        Início 
+                        <label for="cpf"><b>InÃ­cio e TÃ©rmino da vigÃªncia da bolsa</b></label><br />
+                        InÃ­cio 
                         <select class="selecionar">
                           <option value="janeiro">janeiro</option>
                           <option value="fevereiro">fevereiro</option>
-                          <option value="marco">março</option>
+                          <option value="marco">marÃ§o</option>
                           <option value="abril">abril</option>
                             <option value="maio">maio</option>
                           <option value="junho">junho</option>
@@ -209,11 +210,11 @@
                         </select>
                         <br />
         
-                        Término 
+                        TÃ©rmino 
                         <select>
                           <option value="janeiro">janeiro</option>
                           <option value="fevereiro">fevereiro</option>
-                          <option value="marco">março</option>
+                          <option value="marco">marÃ§o</option>
                           <option value="abril">abril</option>
                             <option value="maio">maio</option>
                           <option value="junho">junho</option>
@@ -237,11 +238,11 @@
     
     
                         <br />
-                        <label for="cpf"><b>Mês e ano de retorno à PUCPR</b></label><br />
+                        <label for="cpf"><b>MÃªs e ano de retorno Ã  PUCPR</b></label><br />
                         <select>
                           <option value="janeiro">janeiro</option>
                           <option value="fevereiro">fevereiro</option>
-                          <option value="marco">março</option>
+                          <option value="marco">marÃ§o</option>
                           <option value="abril">abril</option>
                             <option value="maio">maio</option>
                           <option value="junho">junho</option>
@@ -265,31 +266,31 @@
         
                     </div>
                     <div class="coluna-2">
-                        <label for="cpf"><b>Você fez estágio durante o intercâmbio?</b></label><br />
+                        <label for="cpf"><b>VocÃª fez estÃ¡gio durante o intercÃ¢mbio?</b></label><br />
                         <input type="radio" name="sim" value="sim" >Sim. Onde? <input class="input-inscricao"></input><br />
-                        <input type="radio" name="sim" value="sim" >Não<br />
+                        <input type="radio" name="sim" value="sim" >NÃ£o<br />
                         <br />
-                        <label for="cpf"><b>Você fez pesquisa durante o intercâmbio?</b></label><br />
+                        <label for="cpf"><b>VocÃª fez pesquisa durante o intercÃ¢mbio?</b></label><br />
                         <input type="radio" name="sim" value="sim" >Sim. Onde? <input class="input-inscricao"></input><br />
-                        <input type="radio" name="sim" value="sim" >Não<br />
+                        <input type="radio" name="sim" value="sim" >NÃ£o<br />
                         <br />
 
-                        <label for="cpf"><b>Você está trabalhando?</b></label><br />
+                        <label for="cpf"><b>VocÃª estÃ¡ trabalhando?</b></label><br />
                         <input type="radio" name="sim" value="sim" >Sim. Onde? <input class="input-inscricao"></input><br />
-                        <input type="radio" name="sim" value="sim" >Não<br />
+                        <input type="radio" name="sim" value="sim" >NÃ£o<br />
                         <br />
-                        <label for="cpf"><b>Vocês está em algum programa de mestrado?</b></label><br />
+                        <label for="cpf"><b>VocÃªs estÃ¡ em algum programa de mestrado?</b></label><br />
                         <input type="radio" name="sim" value="sim" >Sim. Onde? <input class="input-inscricao"></input><br />
-<input type="radio" name="sim" value="sim" >Em processo de seleção. Onde? <input class="input-inscricao"></input><br />
-                        <input type="radio" name="sim" value="sim" >Não<br />
+<input type="radio" name="sim" value="sim" >Em processo de seleÃ§Ã£o. Onde? <input class="input-inscricao"></input><br />
+                        <input type="radio" name="sim" value="sim" >NÃ£o<br />
                         <br />
-                        <label for="cpf"><b>Vocês está em algum programa de doutorado?</b></label><br />
+                        <label for="cpf"><b>VocÃªs estÃ¡ em algum programa de doutorado?</b></label><br />
                         <input type="radio" name="sim" value="sim" >Sim. Onde? <input class="input-inscricao"></input><br />
-<input type="radio" name="sim" value="sim" >Em processo de seleção. Onde? <input class="input-inscricao"></input><br />
-                        <input type="radio" name="sim" value="sim" >Não<br />
+<input type="radio" name="sim" value="sim" >Em processo de seleÃ§Ã£o. Onde? <input class="input-inscricao"></input><br />
+                        <input type="radio" name="sim" value="sim" >NÃ£o<br />
                         
                         <br />
-                        <button class="botao-enviar">Finalizar minha inscrição</button>
+                        <button class="botao-enviar">Finalizar minha inscriÃ§Ã£o</button>
                     </div>
                 
                 </div>
@@ -301,13 +302,13 @@
 			<section class="section-size" id="contato" data-sr="enter left, hustle 20px">
 				<h2 class="title-sobre-encontro">Contato</h2>
 
-				<p style="color: #fff;">Se você tiver alguma dúvida, entre em contato conosco:</p>
+				<p style="color: #fff;">Se vocÃª tiver alguma dÃºvida, entre em contato conosco:</p>
 				<br />
 
 				<ul class="lista-contato">
 					<li  style="color: #fff;">pibicpr@pucpr.br</li>
 					<li  style="color: #fff;">+55 41 3271-2112</li>
-					<li><p  style="color: #fff;">Rua Imaculada Conceição, 1155<br />
+					<li><p  style="color: #fff;">Rua Imaculada ConceiÃ§Ã£o, 1155<br />
 						Bairro Prado Velho<br />
 						CEP: 80215-901</p></li>
 				</ul>
@@ -318,7 +319,7 @@
 
 		</div><!-- /container -->
 		
-		<!-- Arquivos referentes a  animação do canvas. -->
+		<!-- Arquivos referentes aÂ  animaÃ§Ã£o do canvas. -->
 		<script src="js/TweenLite.min.js"></script>
 		<script src="js/EasePack.min.js"></script>
 		<script src="js/rAF.js"></script>

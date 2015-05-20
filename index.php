@@ -160,6 +160,13 @@
 				<div id="sh" style="cursor: pointer;">
 					.
 				</div></h6>
+
+
+				<!-- COnfirmação da inscrição-->
+				<!-- <h3 style="color: #5fa308;"><i class="fa fa-check-circle" style="color: #5fa308;"></i> Sua inscrição foi confirmada! :)</h3>
+				<p>Esperamos você no dia <b>10 de Junho</b> às <b>18h00</b> no Bloco Verde da PUCPR.</p>
+				<p>Até lá!</p> -->
+
 				<div id="id_inscricao" style="display: none;"></div>
 				<script>
 					$("#sh").click(function() {

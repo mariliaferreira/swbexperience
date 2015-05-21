@@ -1,7 +1,7 @@
 <?php
 require ("db.php");
 require ("functions.php");
-echo date("d/m/Y H:i:s");
+
 /* Validação */
 if (strlen($dd[1]) > 0) {
 	$cpf = sonumero($dd[1]);

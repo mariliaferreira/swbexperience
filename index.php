@@ -156,10 +156,7 @@
 			</section>
 			<section class="section-size2 sobre-enc form-inc" id="participacao" data-sr="enter left, hustle 20px">
 				<h2 class="title-sobre-encontro">Inscrição</h2>
-				<h6>Inscrições a partir do dia 20 de Maio (quarta-feira)
-				<div id="sh" style="cursor: pointer;">
-					.
-				</div></h6>
+				<h6>Inscrições a partir do dia 20 de Maio (quarta-feira).
 
 
 				<!-- COnfirmação da inscrição-->
@@ -167,9 +164,8 @@
 				<p>Esperamos você no dia <b>10 de Junho</b> às <b>18h00</b> no Bloco Verde da PUCPR.</p>
 				<p>Até lá!</p> -->
 
-				<div id="id_inscricao" style="display: none;"></div>
+				<div id="id_inscricao" ></div>
 				<script>
-					$("#sh").click(function() {
 						$("#id_inscricao").fadeIn();
 						$.ajax({
 							url : "inscricao-01.php",
@@ -177,7 +173,6 @@
 						}).done(function(data) {
 							$("#id_inscricao").html(data);
 						});
-					});
 				</script>
 			</section>
 			<section class="section-size" id="contato" data-sr="enter left, hustle 20px">

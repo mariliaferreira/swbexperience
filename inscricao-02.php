@@ -48,7 +48,7 @@ if (strlen(trim($dd[5])) == 0) { $dd[5] = $_SESSION['scf_UES']; }
 		<label for="cpf"><b>Início e Término da vigência da bolsa</b></label>
 		<br />
 		Início
-		<select class="selecionar">
+		<select class="selecionar" name="dd10" id="dd10">
 			<option value="janeiro">janeiro</option>
 			<option value="fevereiro">fevereiro</option>
 			<option value="marco">março</option>
@@ -62,7 +62,7 @@ if (strlen(trim($dd[5])) == 0) { $dd[5] = $_SESSION['scf_UES']; }
 			<option value="novembro">novembro</option>
 			<option value="dezembro">dezembro</option>
 		</select>
-		<select>
+		<select name="dd11" id="dd11">
 			<option value="2009">2009</option>
 			<option value="2010">2010</option>
 			<option value="2011">2011</option>
@@ -73,7 +73,7 @@ if (strlen(trim($dd[5])) == 0) { $dd[5] = $_SESSION['scf_UES']; }
 		</select>
 		<br />
 		Término
-		<select>
+		<select name="dd12" id="dd12">
 			<option value="janeiro">janeiro</option>
 			<option value="fevereiro">fevereiro</option>
 			<option value="marco">março</option>
@@ -87,7 +87,7 @@ if (strlen(trim($dd[5])) == 0) { $dd[5] = $_SESSION['scf_UES']; }
 			<option value="novembro">novembro</option>
 			<option value="dezembro">dezembro</option>
 		</select>
-		<select>
+		<select name="dd13" id="dd13">
 			<option value="2009">2009</option>
 			<option value="2010">2010</option>
 			<option value="2011">2011</option>
@@ -100,7 +100,7 @@ if (strlen(trim($dd[5])) == 0) { $dd[5] = $_SESSION['scf_UES']; }
 		<br />
 		<label for="cpf"><b>Mês e ano de retorno à PUCPR</b></label>
 		<br />
-		<select>
+		<select name="dd14" id="dd14">
 			<option value="janeiro">janeiro</option>
 			<option value="fevereiro">fevereiro</option>
 			<option value="marco">março</option>
@@ -114,7 +114,7 @@ if (strlen(trim($dd[5])) == 0) { $dd[5] = $_SESSION['scf_UES']; }
 			<option value="novembro">novembro</option>
 			<option value="dezembro">dezembro</option>
 		</select>
-		<select>
+		<select name="dd15" id="dd15">
 			<option value="2009">2009</option>
 			<option value="2010">2010</option>
 			<option value="2011">2011</option>
@@ -128,66 +128,66 @@ if (strlen(trim($dd[5])) == 0) { $dd[5] = $_SESSION['scf_UES']; }
 	<div class="coluna-2">
 		<label for="cpf"><b>Você fez estágio durante o intercâmbio?</b></label>
 		<br />
-		<input type="radio" name="sim" value="sim" >
+		<input type="radio" name="sim" value="sim"  name="dd16" id="dd16">
 		Sim. Onde?
-		<input class="input-inscricao">
+		<input class="input-inscricao" name="dd40" id="dd40">
 		</input>
 		<br />
-		<input type="radio" name="sim" value="sim" >
+		<input type="radio" name="sim" value="sim"  name="dd17" id="dd17">
 		Não
 		<br />
 		<br />
 		<label for="cpf"><b>Você fez pesquisa durante o intercâmbio?</b></label>
 		<br />
-		<input type="radio" name="sim" value="sim" >
+		<input type="radio" name="sim" value="sim"  name="dd18" id="dd18">
 		Sim. Onde?
-		<input class="input-inscricao">
+		<input class="input-inscricao"  name="dd41" id="dd41">
 		</input>
 		<br />
-		<input type="radio" name="sim" value="sim" >
+		<input type="radio" name="sim" value="sim"  name="dd19" id="dd19">
 		Não
 		<br />
 		<br />
 		<label for="cpf"><b>Você está trabalhando?</b></label>
 		<br />
-		<input type="radio" name="sim" value="sim" >
+		<input type="radio" name="sim" value="sim"  name="dd20" id="dd20">
 		Sim. Onde?
-		<input class="input-inscricao">
+		<input class="input-inscricao" name="dd42" id="dd42">
 		</input>
 		<br />
-		<input type="radio" name="sim" value="sim" >
+		<input type="radio" name="sim" value="sim"  name="dd21" id="dd21">
 		Não
 		<br />
 		<br />
 		<label for="cpf"><b>Vocês está em algum programa de mestrado?</b></label>
 		<br />
-		<input type="radio" name="sim" value="sim" >
+		<input type="radio" name="sim" value="sim" name="dd22" id="dd22" >
 		Sim. Onde?
-		<input class="input-inscricao">
+		<input class="input-inscricao"  name="dd43" id="dd43">
 		</input>
 		<br />
-		<input type="radio" name="sim" value="sim" >
+		<input type="radio" name="sim" value="sim"  name="dd23" id="dd23">
 		Em processo de seleção. Onde?
-		<input class="input-inscricao">
+		<input class="input-inscricao"  name="dd10" id="dd44">
 		</input>
 		<br />
-		<input type="radio" name="sim" value="sim" >
+		<input type="radio" name="sim" value="sim"  name="dd24" id="dd24">
 		Não
 		<br />
 		<br />
 		<label for="cpf"><b>Vocês está em algum programa de doutorado?</b></label>
 		<br />
-		<input type="radio" name="sim" value="sim" >
+		<input type="radio" name="sim" value="sim"  name="dd25" id="dd25">
 		Sim. Onde?
-		<input class="input-inscricao">
+		<input class="input-inscricao" name="dd45" id="dd45">
 		</input>
 		<br />
-		<input type="radio" name="sim" value="sim" >
+		<input type="radio" name="sim" value="sim"  name="dd25" id="dd25">
 		Em processo de seleção. Onde?
-		<input class="input-inscricao">
+		<input class="input-inscricao"  name="dd46" id="dd46">
 		</input>
 		<br />
-		<input type="radio" name="sim" value="sim" >
+		<input type="radio" name="sim" value="sim"  name="dd26" id="dd26">
 		Não
 		<br />
 		<br />

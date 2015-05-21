@@ -1,3 +1,6 @@
+<?php
+require("db.php");
+?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
@@ -164,7 +167,10 @@
 				<p>Esperamos você no dia <b>10 de Junho</b> às <b>18h00</b> no Bloco Verde da PUCPR.</p>
 				<p>Até lá!</p> -->
 
-				<div id="id_inscricao" ></div>
+				<div id="id_inscricao" >
+				<?php
+				require('inscricao-00.php');
+				/*
 				<script>
 						$("#id_inscricao").fadeIn();
 						$.ajax({
@@ -174,6 +180,9 @@
 							$("#id_inscricao").html(data);
 						});
 				</script>
+				 * 
+				 */
+				?></div>
 			</section>
 			<section class="section-size" id="contato" data-sr="enter left, hustle 20px">
 				<h2 class="title-sobre-encontro">Contato</h2>

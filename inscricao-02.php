@@ -11,7 +11,6 @@ if (strlen(trim($dd[4])) == 0) { $dd[4] = $_SESSION['scf_pais']; }
 if (strlen(trim($dd[5])) == 0) { $dd[5] = $_SESSION['scf_UES']; }
 
 /* Validador */
-
 if (strlen($acao) > 0)
 	{
 		$ok = 1;
@@ -42,18 +41,18 @@ if (strlen($acao) > 0)
 				$r4 = $dd[40];
 				$r5 = $dd[45];
 				
-				$s1 = $dd[21];
-				$s2 = $dd[21];
-				$s3 = $dd[26];
-				$s4 = $dd[28];
-				$s5 = $dd[41];
-				$s6 = $dd[42];
-				$s7 = $dd[46];
-				$s8 = $dd[47];
+				$s1 = substr($dd[21],0,40);
+				$s2 = substr($dd[21],0,40);
+				$s3 = substr($dd[26],0,40);
+				$s4 = substr($dd[28],0,40);
+				$s5 = substr($dd[41],0,40);
+				$s6 = substr($dd[42],0,40);
+				$s7 = substr($dd[46],0,40);
+				$s8 = substr($dd[47],0,40);
 				
-				$s9 = $dd[10].'/'.$dd[11];
-				$s10 = $dd[12].'/'.$dd[13];
-				$s11 = $dd[14].'/'.$dd[15];
+				$s9 = substr($dd[10].'/'.$dd[11],0,40);
+				$s10 = substr($dd[12].'/'.$dd[13],0,40);
+				$s11 = substr($dd[14].'/'.$dd[15],0,40);
 				
 				$data = date("Ymd");
 				$hora = date("H:i");

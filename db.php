@@ -1,13 +1,12 @@
 <?
 ob_start();
 session_start();
-
 //$path_info = trim($_SERVER['PATH_INFO']);
-date_default_timezone_set('GMT');
+//date_default_timezone_set('GMT');
 //-------------------------------------- Paramentros para DEBUG
 ini_set('display_errors', 0);
 ini_set('error_reporting', 0);
-$include = '../_include/';
+$include .= "../../_include/";
 $debug = True;
 if($debug == true)
 	{
@@ -18,6 +17,7 @@ $debug = false;
 //-------------------------------------- Includes Padrï¿½es
 require($include.'sisdoc_sql.php');
 require($include.'sisdoc_char.php');
+//header('Content-Type: text/html; charset=utf-8');
 $tab_max = 780;
 //-------------------------------------- Diretï¿½rios de Arquivos e Imagens
 $dir = $_SERVER['DOCUMENT_ROOT'];
@@ -56,10 +56,13 @@ $vars = array_merge($_GET, $_POST);
 for ($k=0;$k < 100;$k++)
 	{
 	$varf='dd'.$k;
-	$varf=$vars[$varf];
-	//if (isset($varf) and ($k > 1)) {	//$varf = str_replace($varf,"A","ï¿½"); }
-	$varf = troca($varf,chr(92),'');
-	$dd[$k] = troca($varf,"'","´");
+	if (isset($vars[$varf]))
+		{
+		$varf=$vars[$varf];
+		//if (isset($varf) and ($k > 1)) {	//$varf = str_replace($varf,"A","ï¿½"); }
+		$varf = troca($varf,chr(92),'');
+		$dd[$k] = troca($varf,"'","Â´");
+		}
 	}
 $acao = $vars['acao'];
 $nocab = $vars['nocab'];
@@ -75,14 +78,6 @@ $base_host="10.100.1.131";
 $base_name="ojsbr";
 if (strlen($base_user)==0) { $base_user="ojsbr"; }
 $base_pass="ojsbr-2006";
-
-echo '<HR>';
-$base = 'mysql';
-$base_host="localhost";	
-$base_host="localhost";
-$base_name="ojsbr";
-$base_user="root"; 
-$base_pass="root";
 
 $ok = db_connect();
 //require("db_reol2_pucpr.php");
